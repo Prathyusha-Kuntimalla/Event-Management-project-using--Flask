@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    
+}
+
+/* header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+} */
+
+
+header {
+    background: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+    color: #fff; /* White text for contrast */
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 2px solid #fff; /* Optional: adds a clean divider */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Clean font for the title */
+    letter-spacing: 2px; /* Space between letters for a modern look */
+    text-transform: uppercase; /* Optional: makes text uppercase */
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #fff; /* Links remain white */
+    text-decoration: none;
+    margin: 0 15px; /* Space between navigation links */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+header nav a:hover {
+    color: #ffd700; /* Highlight links with gold color on hover */
+}
+
+
+main {
+    padding: 20px;
+}
+
+/* h2 {
+    color: #007BFF;
+} */
+h2{
+    
+        background: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+        color: #fff; /* White text for contrast */
+        padding: 15px 20px;
+        text-align: center;
+        border-bottom: 2px solid #fff; /* Optional: adds a clean divider */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+    
+}
+form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: rgba(0, 0, 0, 1);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    /* background: #fff; */
+    background: rgba(0, 0, 0, 0.5);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #ddd;
+}
+
+ul li a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
